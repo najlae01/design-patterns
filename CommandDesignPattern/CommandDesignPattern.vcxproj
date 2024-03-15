@@ -129,7 +129,9 @@
   <ItemGroup>
     <ClInclude Include="Character.h" />
     <ClInclude Include="Command.h" />
-    <ClInclude Include="Move.h" />
+    <ClInclude Include="JumpCommand.h" />
+    <ClInclude Include="MoveCommand.h" />
+    <ClInclude Include="PunchCommand.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
