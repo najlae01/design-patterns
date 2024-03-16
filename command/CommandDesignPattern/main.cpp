@@ -13,7 +13,6 @@ int main() {
     Character myEnemy("Enemy");
 
     std::vector<std::unique_ptr<Command>> MyCommands;
-
     MyCommands.push_back(std::make_unique<MoveCommand>());
     MyCommands.push_back(std::make_unique<JumpCommand>());
     MyCommands.push_back(std::make_unique<MoveCommand>());
@@ -29,6 +28,5 @@ int main() {
         MyCommands[i]->undo(MyCharacter);
         std::cout << "*************************" << std::endl;
     }
-
 	return 0;
 }
